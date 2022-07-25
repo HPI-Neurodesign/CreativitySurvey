@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.formControl {
+  margin-top: 16px !important;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 740px;
+  align-self: center;
+}
+
+.formContainer7answers {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 740px;
+  align-self: center;
+}
+
+.submitButton {
+  align-self: flex-end;
+  margin-bottom: 24px !important;
+  margin-top: 16px !important;
+}
+
+.startButton {
+  margin-bottom: 16px !important;
+  align-self: center;
+}
+
+.demographics {
+  margin-top: 40px !important;
+}
+
+.highlightGrey {
+  background-color: #eee;
+  padding-bottom: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.highlightWhite {
+  background-color: #fff;
+  padding-bottom: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.buttonHelperText {
+  align-self: end;
+  margin-bottom: -11px;
+  font-size: 0.85rem;
+  color: red;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 440px;
+  padding-bottom: 24px;
+}
+
+.feedback-image {
+  width: 100%;
+}
+
+.pagesLeft {
+  display: flex;
+  align-self: end;
+  color: darkblue;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.buttonPagesLeft {
+  align-self: end;
+  color: darkblue;
+  margin-bottom: -12px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.suggestion-inputs {
+  margin: 0.5rem;
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.suggestion {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.suggestion-box {
+  display: inline-block;
+  align-self: center;
+}
+
+.item {
+  width: 120px;
+  margin-right: 0.5rem;
+}
+
+.items-list-container {
+  margin: auto;
+}
+
+.items-list {
+  display: flex;
+}
+.items-list > p {
+  margin: 0 2rem 2rem 0;
+}
+
+.item-description {
+  margin-bottom: 0.5rem;
+}
+
+.suggestion-button {
+  margin: 0rem;
+  align-self: center;
+}
+
+.example {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  margin: auto;
+}
