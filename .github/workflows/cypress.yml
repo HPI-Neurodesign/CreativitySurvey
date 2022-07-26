@@ -1,2 +1,2 @@
-- name: Cypress.io
+name: Cypress.io
   uses: cypress-io/github-action@v4.1.1
