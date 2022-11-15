@@ -55,13 +55,14 @@ export function CreativeAchievementCategory({
   const activities = creativeAchievementsData[category];
   const shortName: string = shortCategoryNames[category as keyof CategoryNames];
 
+  //TODO spelling in sentence
   return (
     <div>
       <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>
       <p>
         Check the box next to all sentences that apply to you.<br></br> Next to
         sentences with an asterisk (*), write the number of times this
-        appattentions to you.
+        appertains to you.
       </p>
       {activities.map((activity: string, index: number) => (
         <div key={activity}>
